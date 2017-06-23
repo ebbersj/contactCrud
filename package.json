@@ -1,0 +1,42 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "Basic Crud operations demo",
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -t 90 -e development -v -m 5000 ./test/unit",
+    "jshint": "jshint --exclude node_modules/ --reporter=./node_modules/jshint-stylish ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebbersj/crud.git"
+  },
+  "author": "Jason Ebbers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebbersj/crud/issues"
+  },
+  "homepage": "https://github.com/ebbersj/crud#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "boom": "^5.1.0",
+    "convict": "^3.0.0",
+    "glue": "^4.1.0",
+    "hapi": "^16.4.3",
+    "hoek": "^4.1.1",
+    "joi": "^10.6.0",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "chance": "^1.0.10",
+    "jshint": "^2.9.4",
+    "jshint-junit-reporter": "^0.2.2",
+    "jshint-stylish": "^2.2.1",
+    "lab": "^13.0.4",
+    "should": "^11.2.1",
+    "sinon": "^2.2.0"
+  }
+}

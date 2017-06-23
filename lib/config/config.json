@@ -1,0 +1,14 @@
+{
+  "server": {
+    "host": {
+      "doc": "Host to Listen on",
+      "default": "localhost",
+      "env": "SERVER_HOST"
+    },
+    "port": {
+      "doc": "Port to Listen on",
+      "default": 3000,
+      "env": "SERVER_PORT"
+    }
+  }
+}
