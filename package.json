@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ebbersj/crud.git"
+    "url": "git+https://github.com/ebbersj/contactCrud.git"
   },
   "author": "Jason Ebbers",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ebbersj/crud/issues"
+    "url": "https://github.com/ebbersj/contactCrud/issues"
   },
-  "homepage": "https://github.com/ebbersj/crud#readme",
+  "homepage": "https://github.com/ebbersj/contactCrud#readme",
   "dependencies": {
     "bluebird": "^3.5.0",
     "boom": "^5.1.0",
